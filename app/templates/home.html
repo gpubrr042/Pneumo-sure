@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block body %}
+<div class="text-center" style="color: black;" >
+
+  <h3 style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 30px;" >
+    <p>
+      <br>#Fighting Pneumonia using Artificial Intelligence<br>
+      To detect Pneumonia we created a web-app which uses Azure Custom Vision API 
+      <br> For classifying whether a subject has pneumonia or not from the Chest-Xray.
+    </p>
+  </h3>
+
+  <form action = "/capture">
+    <input class="button"type="submit" value="Try uploading an image" >
+  </form>
+  
+
+</div>
+{% endblock %}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{% block title %}Pneumo-sure{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="../static/stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+ </head>
+
+  <body class="bodyclass">
+    <div class="nav">
+      <ul >
+        <li ><a href="/">About</a></li>
+        <li ><a href="./capture">Local-Upload</a></li>
+        
+    
+        <img style=" padding: 10px 0px; float:right; width:60px; margin-right: 10px;" src="../static/MSS logo circle.png">
+      </ul>
+      
+    </div>
+     
+      {% block body %}
+      {% endblock %}
+      
+  </body>
+</html>

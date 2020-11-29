@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Success{% endblock %}
+{% block body %}
+<div align="center" style="color: black;">
+    <p>File uploaded successfully</p>  
+    <p>Results:<br><h3 class="result">{{result}}</h3> </p> 
+    <img src="../static/test.jpeg" width="320px" height="310px" alt="Image">
+    <form action = "/capture">
+        <input class="button"type="submit" value="Try Again" href="/" style="margin-top:30px ;" >
+    </form>
+</div>
+{% endblock %}
