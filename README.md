@@ -48,7 +48,7 @@ What each file does:
 
 # Training Data
 ![training](https://user-images.githubusercontent.com/24211231/100543166-9017b500-3274-11eb-8cda-47018f1d0df1.png)
-# Predicitions 
+# Predictions 
 ![pedictions](https://user-images.githubusercontent.com/24211231/100543186-afaedd80-3274-11eb-94f5-ce6c6bb41e80.png)
 # Performance
 ![performance](https://user-images.githubusercontent.com/24211231/100543261-18965580-3275-11eb-9e4e-9df9c4b3f12f.png)
