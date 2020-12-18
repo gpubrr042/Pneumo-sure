@@ -1,5 +1,3 @@
-# Microsoft Champions League Hackathon
-
 # Pneumo-sure - AI based Chest Radiology Assistant for Detection of Pneumonia and other Chronic Obstructive Pulmonary Diseases(COPD).
 
 Dataset used : https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
